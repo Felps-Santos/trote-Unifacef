@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* espaçamento externo da página */
+    padding: 0; /* espaçamento interno da página */
+    background-color: #f1f1f1;
+    text-align: center; /* texto centralizado */
+}
+header {
+    background-color: #28a745;
+    color: white;
+    /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda)*/
+    padding: 15px 0px;
+    font-size: 24px; 
+}
+nav {
+    background: #007bff;
+    padding: 10px; /* espaçamento interno do menu */
+    display: flex; /* Flex Boxing */
+    justify-content: space-between; /* espaço entre os elementos do menu*/
+    align-items: center; /* alinhamento na vertical */
+}
+#links-menu{
+    display: flex;
+    gap: 20px; /* distância entre os itens do menu*/
+}
+nav a { /* configura os links do menu */
+    color: white;
+    text-decoration: none; /* não decora os links */
+    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 5px; /* cantos arredondados */
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin-right: 80px; /* espaçamento externo à direita */
+    border-radius: 10px;
+}
+
+.container {
+    width: 80%; /* largura de 80% da largura da página */
+    background: white;
+    border-radius: 10px;
+    /* espaçamento externo 20px acima e abaixo */
+    /* espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* espaçamento interno */ 
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+
+ol li {
+    padding-bottom: 20px;
+}
+
+
+.tabela {
+    margin-bottom: 20px;
+    width: 60%; /* Define a largura fixa de 60% */
+    margin: 0 auto; /* Centraliza a tabela na página */
+    border-collapse: collapse; /* Remove espaços entre bordas */
+}
+
+table tr th {
+    text-align: center;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lista-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.cinza {
+    background-color: #c6c6c6;
+    color: black;
+}
+
+.azul {
+    background-color: #002060;
+    color: white;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxo {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+
+.campos {
+    margin-bottom: 20px;
+}
